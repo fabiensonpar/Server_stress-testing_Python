@@ -7,7 +7,7 @@ Features:
   ***1. Basic version:***  
       **1.1 Easily accessible interface**  
          * User is asked for confirmation before starting the stress-testing    
-         * Review of variables -- destination, amount of threads, port 
+         * Review of variables -- destination, amount of threads, port   
          * Guides the user through setting up the required variables   
       **1.2 Clean interface**  
         * Built-in Exception-Handling  
