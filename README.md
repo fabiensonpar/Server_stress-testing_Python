@@ -18,7 +18,7 @@ Features:
         * Arguments supplied at execution ("python ddos_commandline.py -d 192.168.43.1 -t 100000 -r "GET /images/logo.jpg HTTP/1.0" ") 
         * Easily include the tool in your own script, e.g. write a script which automatically runs the program at startup  
       **2.2 More customization**  
-        * Use your own custom HTTP requests to stress-test your server with. A tip: use the HTTP POST method with login forms and long arguments for maximum processor load, so to speak: efficiency.  
+        * Use your own custom HTTP requests to stress-test your server with. A tip: use the HTTP POST method with login forms and long arguments for maximum processor load.  
         
   ***3. Both versions:***  
       **3.1 Maximum amount of processor efficieny**  
