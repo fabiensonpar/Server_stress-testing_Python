@@ -18,7 +18,9 @@ if (not portinput):
 else:
 	port = int(portinput)
 
-if (sys.getsizeof(IP) < 40 or sys.getsizeof(IP) > 52):
+dots = IP.count(".")
+
+if (dots != 4):
 	print "[-] Invalid IP address"
 	sys.exit(1)
 	

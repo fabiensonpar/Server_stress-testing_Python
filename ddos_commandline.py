@@ -20,6 +20,11 @@ args = parser.parse_args()
 
 	
 IP = args.destination
+dots = IP.count(".")
+if(dots != 4):
+	print "[-] Invalid IP address"
+	sys.exit(1)
+
 print "[+] IP set to: " + str(IP)
 
 
